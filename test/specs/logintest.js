@@ -1,11 +1,11 @@
-const LoginPage = require('./pageobjets/login.page.js');
+const LoginPage = require('../pageobjets/login.page');
 
 describe ('Testin login page', () => {
     beforeAll('Open Sauce Demo page', () => {
         browser.url('https://www.saucedemo.com/');
     });
 
-    describe ('Test Username'), () => {
+    describe ('Test Username', () => {
         it('Using a undefined username', ()=> {
             LoginPage.setNameInput(undefined);
             LoginPage.loginBtn.click();
@@ -34,8 +34,8 @@ describe ('Testin login page', () => {
             expect(LoginPage.errorMessage).toHaveText('Epic sadface: Password is required');
             browser.pause(1500);
         });
-    }
-    describe ('Test Password'), () => {
+    });
+    describe ('Test Password', () => {
         it('Using a correct username and invalid password', ()=> {
             LoginPage.setNameInput('standard_user');
             LoginPage.setPassword('Micaela')
@@ -75,6 +75,5 @@ describe ('Testin login page', () => {
             expect(browser).toHaveUrl('https://www.saucedemo.com/inventory.html');
             browser.pause(1500);
         });             
-    }
-}  
-
+    });
+});  

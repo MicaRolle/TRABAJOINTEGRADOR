@@ -10,7 +10,7 @@ class LoginPage {
         this.nameInput.setValue(username);
         this.nameInput.keys("Tab");
     }
-    
+
     setPassword (password) {
         this.passwordInput.setValue(password);
         this.passwordInput.keys("Tab");
@@ -24,5 +24,6 @@ class LoginPage {
 
     open () {
       browser.url('https://www.saucedemo.com/');
-    }
+    }   
 }
+module.exports = new LoginPage();
