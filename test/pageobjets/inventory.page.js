@@ -45,22 +45,23 @@ class InventoryPage  {
     get redTshirtAdd () { return $('[name="add-to-cart-test.allthethings()-t-shirt-(red)"]') }
     get redTshirtDelete () { return $('[name="remove-test.allthethings()-t-shirt-(red)"]') }
   
-   // MEDIA 
+   // **MEDIA **
 
     get twitter () { return $('.social_twitter a') }
     get facebook () { return $('.social_facebook a') }
     get linkedin () { return $('.social_linkedin a') }
 
-   // INVENTORY ITEMS
+   // **INVENTORY ITEMS**
     get inventoryItemName () { return $$('.inventory_item_name') }
     get inventoryItemDesc () { return $$('.inventory_item_desc') }
     get inventoryItemPrice () { return $$('.inventory_item_price') }
     get inventoryFirstItem () { return this.inventoryItemName[0] }
 
-   // STEPS
+   /// **STEPS**
     get title () { return $('.title')}
     get btnContShopping () { return $('#continue-shopping') }
     get btnCheckout () { return $('#checkout') }
+   
       
 
     //MET
