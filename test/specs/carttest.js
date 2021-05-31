@@ -1,6 +1,6 @@
 const LoginPage = require('../pageobjets/login.page');
 const InventoryPage = require('../pageobjets/inventory.page');
-const HeaderPage = require('../pageobjets/hearder.page');
+const HeaderPage = require('../pageobjets/header.page');
 
 describe('Testing: CART PAGE', () => {
     beforeAll('Login user', () => { 

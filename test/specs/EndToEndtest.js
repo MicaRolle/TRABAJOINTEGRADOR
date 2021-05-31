@@ -8,7 +8,7 @@ describe('END TO END - EXAMPLES', () => {
     it('First example', () => {
         LoginPage.open();
         LoginPage.login('standard_user','secret_sauce');
-        InventoryPage.addAllProducts()
+        InventoryPage.addAllProducts(); 
         HeaderPage.cartbtn.click();
         InventoryPage.btnCheckout.click();
         CheckoutPage.FormCheckout('Micaela','Rolle','2000');
