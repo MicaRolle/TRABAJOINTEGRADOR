@@ -9,8 +9,8 @@ class CheckoutPage {
     get errorMsj() { return $('.error-message-container') }
     get errorBtn () { return $('.error-button') }
     get errorData () { return $('[data-test="error"]') }
-    get complHeader () { return $('.complete-header') }
-    get complText () { return $('.complete-text') }
+    get completeHeader () { return $('.complete-header') }
+    get completeText () { return $('.complete-text') }
     get backbtn () { return $('#back-to-products') }
     
 
