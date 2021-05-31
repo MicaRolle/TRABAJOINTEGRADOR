@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run ./wdio.conf.js --spec logintest.js"
+    "test": "npx wdio run ./wdio.conf.js --spec inventorytest.js"
   },
   "author": "Mica Rolle",
   "license": "ISC",
