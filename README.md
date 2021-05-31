@@ -1,6 +1,9 @@
 TRABAJO FINAL "BECOME A QA"
+
 Testing page: https://www.saucedemo.com/
+
 Frawork: WDIO
+
 Testing: Login, Inventory, Cart and EndToEnd.
 
 INTALATION
